@@ -1,1 +1,66 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About Us - TravelBloom</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; font-family: Arial, sans-serif; }
+    body { background-color: #f4f7f9; color: #222; }
+    nav {
+      display: flex; justify-content: space-between; align-items: center;
+      background-color: #0b2545; padding: 14px 30px; color: white;
+    }
+    .logo { font-size: 22px; font-weight: bold; color: #00d4ff; }
+    .nav-links { display: flex; gap: 20px; }
+    .nav-links a { color: white; text-decoration: none; font-weight: bold; }
+    .container { max-width: 1000px; margin: 50px auto; padding: 0 20px; }
+    h1 { font-size: 38px; color: #0b2545; margin-bottom: 20px; }
+    .intro { background: white; padding: 25px; border-radius: 8px; line-height: 1.7; margin-bottom: 40px; box-shadow: 0 3px 10px rgba(0,0,0,0.08); }
+    h2 { font-size: 28px; color: #0b2545; margin-bottom: 20px; }
+    .team-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; }
+    .member { background: white; padding: 20px; border-radius: 8px; box-shadow: 0 3px 10px rgba(0,0,0,0.08); }
+    .member h3 { color: #0b2545; margin-bottom: 6px; }
+    .role { display: inline-block; background: #00a896; color: white; padding: 4px 10px; border-radius: 4px; font-size: 13px; margin-bottom: 10px; }
+  </style>
+</head>
+<body>
+  <nav>
+    <div class="logo">TravelBloom</div>
+    <div class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="about.html">About Us</a>
+      <a href="contact.html">Contact Us</a>
+    </div>
+  </nav>
+
+  <div class="container">
+    <h1>ABOUT US</h1>
+    <div class="intro">
+      <p>
+        Welcome to <strong>TravelBloom</strong>! We are a passionate team of travel enthusiasts and technology experts dedicated to helping travelers discover the world's finest destinations. Our mission is to provide personalized, reliable, and inspiring travel recommendations—from serene beaches to historic temples and vibrant cities.
+      </p>
+    </div>
+
+    <h2>Our Team</h2>
+    <div class="team-grid">
+      <div class="member">
+        <h3>Hassan Ali</h3>
+        <span class="role">CEO & Founder</span>
+        <p>Leads company vision, global travel partnerships, and product strategy.</p>
+      </div>
+      <div class="member">
+        <h3>Amina Yusuf</h3>
+        <span class="role">Team Lead</span>
+        <p>Oversees destination curation and customer travel experiences worldwide.</p>
+      </div>
+      <div class="member">
+        <h3>Omar Farah</h3>
+        <span class="role">Delivery Head</span>
+        <p>Manages platform operations, quality assurance, and technical delivery.</p>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
